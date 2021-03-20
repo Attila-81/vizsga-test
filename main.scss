@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #efd592;
+  display: flex;
+  align-items: center;
+
+  color: #242d38;
+}
+
+.colorDiv {
+  width: 50%;
+  min-height: calc(100vh - 160px);
+  background-color: #242d38;
+  margin: 80px;
+}
+
+.contentDiv {
+  width: 50%;
+  margin: 80px 80px 80px 0;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+p {
+  margin: 80px 150px 80px 0;
+  font-size: 1.8rem;
+  line-height: 2;
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-size: 1.9rem;
+  font-weight: 600;
+  letter-spacing: 8px;
+  color: #242d38;
+}
+
+.navbar.navbar-1 .navbar-toggler-icon {
+  background-image: url("https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=fff");
+}
+
+.navbar {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+}
+
+.navbar-toggler {
+  padding: 0.75rem 0.75rem;
+  font-size: 3.25rem;
+  line-height: 1;
+  background-color: #242d38;
+  /* border: 1px solid transparent; */
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 1500px) {
+  p {
+    line-height: 1.5;
+    margin: 50px 120px 50px 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .colorDiv {
+    min-height: 120vh;
+    margin: 40px;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  a {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .colorDiv {
+    min-height: calc(100vh - 60px);
+    margin: 30px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p a {
+    font-size: 1.4rem;
+  }
+
+  p {
+    line-height: 1;
+    margin: 20px 10px 20px 0;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+
+  .navbar-toggler {
+    padding: 0.25rem 0.25rem;
+    font-size: 2.25rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .colorDiv {
+    min-height: 120vh;
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    flex-wrap: wrap;
+  }
+
+  .colorDiv {
+    width: 100%;
+    min-height: 60vh;
+    margin: 0;
+  }
+
+  .contentDiv {
+    width: 100%;
+    margin: 30px;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+
+  .navbar-light .navbar-toggler {
+    border-color: #efd592;
+  }
+}
