@@ -1,0 +1,23 @@
+{
+  "name": "vizsga-test",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Attila-81/vizsga-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Attila-81/vizsga-test/issues"
+  },
+  "homepage": "https://github.com/Attila-81/vizsga-test#readme"
+}
